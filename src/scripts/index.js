@@ -1,3 +1,5 @@
+import 'lazysizes'
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import '../styles/main.css';
 import 'regenerator-runtime';
 import '../styles/responsive.css';

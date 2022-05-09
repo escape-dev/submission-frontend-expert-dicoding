@@ -21,6 +21,6 @@
         "no-underscore-dangle": "off",
         "no-restricted-globals": "off",
         "no-plusplus": "off",
-        "no-undef": "off",
+        "no-undef": "off"
     }
 }

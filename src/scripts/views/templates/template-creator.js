@@ -41,7 +41,7 @@ const createRestaurantItemTemplate = (restaurant) => `
         <div class="content-city">
             <p tabindex="0">Kota ${restaurant.city}</p>
         </div>
-        <img tabindex="0" class="content-item-img" src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://picsum.photos/id/666/800/450?grayscale'}" alt="${restaurant.name}">
+        <img tabindex="0" class="content-item-img lazyload" data-src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://picsum.photos/id/666/800/450?grayscale'}" alt="${restaurant.name}">
         <div class="content-item-container">
             <h3 class="content-item-title">
                 <a href="${`/#/detail/${restaurant.id}`}">${restaurant.name}</a>

@@ -42,6 +42,10 @@
 }
 
 @media screen and (min-width: 650px) {
+    .hero {
+        background-image: linear-gradient(to top,rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.432)), url("/images/hero-image_4-large.jpg");
+    }
+
     .content-item-container {
         padding: 16px 32px 32px 32px;
     }
