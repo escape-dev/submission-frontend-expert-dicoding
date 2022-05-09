@@ -106,7 +106,7 @@ nav a:hover {
     min-height: 380px;
     width: 100%;
     text-align: center;
-    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.432)), url("../public/images/heros/hero-image_4.jpg");
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.432)), url("../public/images/heros/hero-image_4-small.jpg");
     background-size: cover;
     background-color: #FFF56D;
 }
